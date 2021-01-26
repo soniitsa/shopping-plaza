@@ -55,7 +55,7 @@
                             <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
                         </div>
                         <div class="col-3 text-right">
-                            <p class="my-0 small text-muted"><p class="my-0 small text-muted"><p class="my-0">${{ item.product.price }}</p></p>
+                            <p class="my-0 small text-muted"><p class="my-0">${{ item.product.price }}</p>
                         </div>
                     </div>
                 {% endfor %}
@@ -136,8 +136,14 @@
             </div>
         </div>
     </div>
+    <div id="loading-overlay">
+        <h1 class="text-light logo-font loading-spinner">
+            <span class="icon">
+                <i class="fas fa-3x fa-sync-alt fa-spin"></i>
+            </span>
+        </h1>
+    </div>
 {% endblock %}
-
 
 {% block postloadjs %}
     {{ block.super }}
