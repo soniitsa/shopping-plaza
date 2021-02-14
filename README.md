@@ -1,19 +1,17 @@
-# User Experience (UX)
-
-# Project Goals
-# The goal of this project is to create an online bussiness store called Shopping Plaza, where people around the world can easily purchase clothing with ease.
-
-# User Stories
-# First Time Visitor Goals
+# Project Goal
+The goal of this project is to create an online bussiness store called Shopping Plaza, 
+where people around the world can easily purchase clothing with ease. 
+## User Stories
+ First Time Visitor Goals
  As a first time visitor, I want to understand the main purpose of the site
-2 As a first time visitor, I want to be able to easily navigate through the site
-3 As a first time visitor, I want to be able to search for products specifically
+ As a first time visitor, I want to be able to easily navigate through the site
+ As a first time visitor, I want to be able to search for products specifically
 
-Registered User Goals
-1 As a registered user, I want to be able to easily login and logout of my account
-2 As a registered user, I want to be able to see my order informations.
+### Registered User Goals
+ As a registered user, I want to be able to easily login and logout of my account
+ As a registered user, I want to be able to see my order informations.
 
-Site Owner Goals
+# Site Owner Goals
 1 As a site owner, I want to provide the user with information about the purpose of the site
 2 As a site owner, I want to include a navigation bar to allow users to easily navigate to other pages on the site
 3 As a site owner, I want all visitors and registered users to be able to easily contact me through email or social media platforms
@@ -29,7 +27,7 @@ These images are from various different fashion website sites.
 fashionova.com
 
 # Technologies Used
-# Languages
+Languages
 HTML
 CSS
 JavaScript
