@@ -1,11 +1,11 @@
-User Experience (UX)
+# User Experience (UX)
 
-Project Goals
-The goal of this project is to create an online bussiness store where people around the world can easily purchase clothing with ease.
+# Project Goals
+# The goal of this project is to create an online bussiness store called Shopping Plaza, where people around the world can easily purchase clothing with ease.
 
-User Stories
-First Time Visitor Goals
-1 As a first time visitor, I want to understand the main purpose of the site
+# User Stories
+# First Time Visitor Goals
+ As a first time visitor, I want to understand the main purpose of the site
 2 As a first time visitor, I want to be able to easily navigate through the site
 3 As a first time visitor, I want to be able to search for products specifically
 
@@ -14,29 +14,29 @@ Registered User Goals
 2 As a registered user, I want to be able to see my order informations.
 
 Site Owner Goals
-As a site owner, I want to provide the user with information about the purpose of the site
-As a site owner, I want to include a navigation bar to allow users to easily navigate to other pages on the site
-As a site owner, I want all visitors and registered users to be able to easily contact me through email or social media platforms
+1 As a site owner, I want to provide the user with information about the purpose of the site
+2 As a site owner, I want to include a navigation bar to allow users to easily navigate to other pages on the site
+3 As a site owner, I want all visitors and registered users to be able to easily contact me through email or social media platforms
 
-Design
+# Design
 The overall design of this project is based on the boutique_ado site. 
 The site features a simple and easy to follow layout with a navigation bar at the top,
 the main content in the middle and a footer containing external links at the bottom.
 
-Imagery
+# Imagery
 
- These images are from various different fashion website sites. 
- fashionova.com
+These images are from various different fashion website sites. 
+fashionova.com
 
-Technologies Used
-Languages
+# Technologies Used
+# Languages
 HTML
 CSS
 JavaScript
 Python
 Django
 
-Testing 
+# Testing 
 Contents
 Code Validation
 User Stories
@@ -46,7 +46,7 @@ Performance
 Manual Testing
 Known Bugs
 
-Heroku
+# Heroku
 This project is hosted on Heroku - A cloud platform service that enables developers to build, 
 run and operate applications entirely in the cloud:
 
@@ -66,7 +66,7 @@ Connect to your GitHub account and search for the name of the repository to conn
 Once connected, "Enable Automatic Deployments" and select the "Master" or "Main" branch to deploy
 Click the "Deploy Branch" button to deploy the app to Heroku
 
-Acknowledgements
+# Acknowledgements
 
 A huge thank you to the Tutor Support for helping me spot an error in my code 
 that wouldn't let me render the edit word functionality - 
