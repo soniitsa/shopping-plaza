@@ -1,45 +1,73 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+User Experience (UX)
 
-Welcome soniitsa,
+Project Goals
+The goal of this project is to create an online bussiness store where people around the world can easily purchase clothing with ease.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+User Stories
+First Time Visitor Goals
+1 As a first time visitor, I want to understand the main purpose of the site
+2 As a first time visitor, I want to be able to easily navigate through the site
+3 As a first time visitor, I want to be able to search for products specifically
 
-## Gitpod Reminders
+Registered User Goals
+1 As a registered user, I want to be able to easily login and logout of my account
+2 As a registered user, I want to be able to see my order informations.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Site Owner Goals
+As a site owner, I want to provide the user with information about the purpose of the site
+As a site owner, I want to include a navigation bar to allow users to easily navigate to other pages on the site
+As a site owner, I want all visitors and registered users to be able to easily contact me through email or social media platforms
 
-`python3 -m http.server`
+Design
+The overall design of this project is based on the boutique_ado site. 
+The site features a simple and easy to follow layout with a navigation bar at the top,
+the main content in the middle and a footer containing external links at the bottom.
 
-A blue button should appear to click: *Make Public*,
+Imagery
 
-Another blue button should appear to click: *Open Browser*.
+ These images are from various different fashion website sites. 
+ fashionova.com
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Technologies Used
+Languages
+HTML
+CSS
+JavaScript
+Python
+Django
 
-A blue button should appear to click: *Make Public*,
+Testing 
+Contents
+Code Validation
+User Stories
+Branches
+Responsiveness
+Performance
+Manual Testing
+Known Bugs
 
-Another blue button should appear to click: *Open Browser*.
+Heroku
+This project is hosted on Heroku - A cloud platform service that enables developers to build, 
+run and operate applications entirely in the cloud:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Before creating a Heroku app, open the repository,
+in VS Code and create a requirements file that lists all the applications
+and dependencies required to run the application: pip3 freeze --local > requirements.txt
+Create a Heroku specific file called a Procfile - 
+this is what Heroku looks for to know which file runs the app and how to run it: echo web: python run.py > Procfile
+Open Heroku and login to your account or sign up for an account if you don't already have one
+Open the dashboard and select "New" to create a new app
+Name the app and set the region to Europe
+Open the settings tab and open "Reveal Config Vars"
+Add the environment variables from the env.py file:
 
-## Updates Since The Instructional Video
+To deploy the app from GitHub, open the deploy tab and change the deployment method to GitHub
+Connect to your GitHub account and search for the name of the repository to connect to
+Once connected, "Enable Automatic Deployments" and select the "Master" or "Main" branch to deploy
+Click the "Deploy Branch" button to deploy the app to Heroku
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Acknowledgements
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+A huge thank you to the Tutor Support for helping me spot an error in my code 
+that wouldn't let me render the edit word functionality - 
+It's always the silly things that catch me out!
