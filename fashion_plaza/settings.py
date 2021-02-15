@@ -27,7 +27,7 @@ SECRET_KEY = '&51+_219@rsfj$(ir-*ktm5unuyu&oz7k5%kylse*o#q*kc_4i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['Shttps://git.heroku.com/fashion-plaza.git', 'localhost']
 
 
 # Application definition
@@ -121,7 +121,12 @@ WSGI_APPLICATION = 'shopping_plaza.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
