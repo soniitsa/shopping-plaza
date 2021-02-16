@@ -27,7 +27,7 @@ SECRET_KEY = '&51+_219@rsfj$(ir-*ktm5unuyu&oz7k5%kylse*o#q*kc_4i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['Shttps://git.heroku.com/fashion-plaza.git', 'localhost']
+ALLOWED_HOSTS = ['https://git.heroku.com/fashion-plaza.git', 'localhost']
 
 
 # Application definition
@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+    'shopping_plaza',
 
     # other
     'crispy_forms',
@@ -127,11 +128,12 @@ if 'DATABASE_URL' in os.environ:
     }
 else:
     DATABASES = {
-   'default': {
+     'default': {
        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-   }
- }
+       'NAME': BASE_DIR / 'db.sqlite3',
+      }
+    }
+
 
 
 # Password validation
@@ -184,4 +186,4 @@ STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
-DEFAULT_FROM_EMAIL = 'shoppingplaza@example.com'
+DEFAULT_FROM_EMAIL = 'fashionplaza@example.com'
