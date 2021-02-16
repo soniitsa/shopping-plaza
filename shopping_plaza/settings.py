@@ -22,13 +22,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+SECRET_KEY = '&51+_219@rsfj$(ir-*ktm5unuyu&oz7k5%kylse*o#q*kc_4i'
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://git.heroku.com/fashion-plaza.git', 'localhost']
+ALLOWED_HOSTS = ['fashion-plaza.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -49,9 +49,8 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
-    'shopping_plaza'
- 
-
+    'shopping_plaza',
+    
     # other
     'crispy_forms',
 ]
