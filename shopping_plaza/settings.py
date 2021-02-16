@@ -48,11 +48,13 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
-    'shopping_plaza',
+    'shopping_plaza'
+ 
 
     # other
     'crispy_forms',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
